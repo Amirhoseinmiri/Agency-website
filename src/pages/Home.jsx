@@ -3,6 +3,7 @@ import Hero from "../components/Hero/Hero";
 import Features from "../components/Features/Features";
 import CardComponent from "../components/Price/CardComponent";
 import CallToAction from "../components/CallToAction/CallToAction";
+import Review from "../components/Review/Review";
 
 const Home = () => {
   return (
@@ -11,6 +12,7 @@ const Home = () => {
       <Features />
       <CardComponent />
       <CallToAction />
+      <Review />
     </div>
   );
 };
